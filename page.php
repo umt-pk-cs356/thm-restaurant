@@ -2,10 +2,10 @@
 	       <!--start-image-slider---->
 			    <div class="slider">					     
 					<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">									           
-						<div data-src="<?php bloginfo('template_directory'); ?>/images/slider1.jpg">  </div> 
-						<div data-src="<?php bloginfo('template_directory'); ?>/images/slider2.jpg">  </div>
-						<div data-src="<?php bloginfo('template_directory'); ?>/images/slider3.jpg">  </div>
-						<div data-src="<?php bloginfo('template_directory'); ?>/images/slider4.jpg">  </div>
+						<div data-src="images/slider1.jpg">  </div> 
+						<div data-src="images/slider2.jpg">  </div>
+						<div data-src="images/slider3.jpg">  </div>
+						<div data-src="images/slider4.jpg">  </div>
 					</div>
 					<div class="clear"> </div>					       
 			</div>					
@@ -15,19 +15,19 @@
 		 	<div class="top-grids">
 		 		<div class="wrap">
 			 		<div class="top-grid">
-			 			<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/icon1.png" title="icon-name"></a>
+			 			<a href="#"><img src="images/icon1.png" title="icon-name"></a>
 			 			<h3>Sucess Story</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			 			<a class="button" href="about.html">Read More</a>
 			 		</div>
 			 		<div class="top-grid">
-			 			<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/icon2.png" title="icon-name"></a>
+			 			<a href="#"><img src="images/icon2.png" title="icon-name"></a>
 			 			<h3>Our Services</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
 			 			<a class="button" href="services.html">Read More</a>
 			 		</div>
 			 		<div class="top-grid last-topgrid">
-			 			<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/icon3.png" title="icon-name"></a>
+			 			<a href="#"><img src="images/icon3.png" title="icon-name"></a>
 			 			<h3>Location</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			 			<a class="button" href="contact.html">Read More</a>
@@ -67,12 +67,12 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<div class="gallery">
 										<ul>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider3.jpg"><img src="images/slider3.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider4.jpg"><img src="images/slider4.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>											
+												<li><a href="images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
+												<li><a href="images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>
+												<li><a href="images/slider3.jpg"><img src="images/slider3.jpg" alt=""></a></li>
+												<li><a href="images/slider4.jpg"><img src="images/slider4.jpg" alt=""></a></li>
+												<li><a href="images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
+												<li><a href="images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>											
 											<div class="clear"> </div>
 										</ul>										
 								 </div>

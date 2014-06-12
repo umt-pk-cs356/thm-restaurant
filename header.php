@@ -22,10 +22,10 @@
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css"  media="all" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href="slider.css" rel="stylesheet" type="text/css"  media="all" />
-  <script type="text/javascript" src="js/jquery.min.js"></script> 
-  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> 
-  <script type="text/javascript" src="js/camera.min.js"></script>
-  <script type="text/javascript" src="js/jquery.lightbox.js"></script> 
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script> 
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script> 
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/camera.min.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.lightbox.js"></script> 
   <link rel="stylesheet" type="text/css" href="lightbox.css" media="screen" />
 	  <script type="text/javascript">
 		  $(function() {
@@ -47,13 +47,13 @@
 	     <div class="wrap">
 			<div class="top-header">
 				<div class="logo">
-					<a href="index.html"><img src="logo.png" title="logo" /></a>
+					<a href="index.html"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" title="logo" /></a>
 				</div>
 				<div class="social-icons">
 					<ul>
-						<li><a href="#"><img src="images/facebook.png" title="facebook" /></a></li>
-						<li><a href="#"><img src="images/twitter.png" title="twitter" /></a></li>
-						<li><a href="#"><img src="images/google.png" title="google pluse" /></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" title="facebook" /></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" title="twitter" /></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/google.png" title="google pluse" /></a></li>
 					</ul>
 				</div>
 				<div class="clear"> </div>
