@@ -42,7 +42,7 @@
 						<div data-src="<?php bloginfo('template_directory'); ?>/images/slider4.jpg">  </div>
 					</div>
 					<div class="clear"> </div>					       
-			</div>					
+			</div><br/><br/><br/>
          <!--End-image-slider---->
 		 <!---start-content---->
 		 <div class="content">
@@ -50,7 +50,7 @@
 		 		<div class="wrap">
 			 		<div class="top-grid">
 			 			<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/icon1.png" title="icon-name"></a>
-			 			<h3>Sucess Story</h3>
+			 			<h3>Success Story</h3>
 			 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			 			<a class="button" href="about.html">Read More</a>
 			 		</div>

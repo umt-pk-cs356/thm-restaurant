@@ -4,7 +4,7 @@
 			<div class="footer-grid">
 				<h3>About us</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				<a href="#">ReadMore</a>
+				<a>ReadMore</a>
 			</div>
 			<div class="footer-grid center-grid">
 				<h3>Recent posts</h3>

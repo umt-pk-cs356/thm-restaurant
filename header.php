@@ -55,7 +55,7 @@
 					<ul>
 						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" title="facebook" /></a></li>
 						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" title="twitter" /></a></li>
-						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/google.png" title="google pluse" /></a></li>
+						<li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/google.png" title="google plus" /></a></li>
 					</ul>
 				</div>
 				<div class="clear"> </div>
@@ -64,11 +64,7 @@
 			<div class="top-nav">
 				<div class="top-nav-left">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="contact.html">Contact</a></li>
+					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 						<div class="clear"> </div>
 					</ul>
