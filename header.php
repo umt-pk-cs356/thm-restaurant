@@ -69,6 +69,7 @@
 						<li><a href="services.html">Services</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="contact.html">Contact</a></li>
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 						<div class="clear"> </div>
 					</ul>
 				</div>
