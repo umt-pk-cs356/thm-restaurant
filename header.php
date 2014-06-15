@@ -69,13 +69,12 @@
 						<li><a href="services.html">Services</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="contact.html">Contact</a></li>
-						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 						<div class="clear"> </div>
 					</ul>
 				</div>
-				<div class="top-nav-right">
-					<form>
-						<input type="text"><input type="submit" value="" />
+				<div class="top-nav-right" class="search-form" class="">
+					<form role="search" method="get" class="search-form" action="http://localhost/ossd/">
+						<?php get_search_form();?>
 					</form>
 				</div>
 				<div class="clear"> </div>

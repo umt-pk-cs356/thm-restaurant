@@ -17,10 +17,12 @@
 
 					endwhile;
 					
-					twentyfourteen_paging_nav();
+					echo'<h1 align="center">';the_title();echo"</h1>";
+				echo'<h4 align="center">';the_content();echo'</h4>';
+				echo'<br/><br/>';
 
 				else :
-					
+					echo'<h3 align="center">Not Found.</h3>';
 					get_template_part( 'content', 'none' );
 
 				endif;

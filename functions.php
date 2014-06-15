@@ -83,11 +83,12 @@ function twentyfourteen_setup() {
 		'primary'   => __( 'Top primary menu', 'twentyfourteen' ),
 		'secondary' => __( 'Secondary menu in left sidebar', 'twentyfourteen' ),
 	) );
-
+	
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
 	 */
+	
 	add_theme_support( 'html5', array(
 		'search-form', 'comment-form', 'comment-list',
 	) );
@@ -110,7 +111,7 @@ function twentyfourteen_setup() {
 		'featured_content_filter' => 'twentyfourteen_get_featured_posts',
 		'max_posts' => 6,
 	) );
-
+	add_theme_support('menus');
 	// This theme uses its own gallery styles.
 	add_filter( 'use_default_gallery_style', '__return_false' );
 }
@@ -172,27 +173,9 @@ function twentyfourteen_widgets_init() {
 	register_widget( 'Twenty_Fourteen_Ephemera_Widget' );
 
 	register_sidebar( array(
-		'name'          => __( 'Primary Sidebar', 'twentyfourteen' ),
+		'name'          => __( 'Footer', 'twentyfourteen' ),
 		'id'            => 'sidebar-1',
-		'description'   => __( 'Main sidebar that appears on the left.', 'twentyfourteen' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
-	register_sidebar( array(
-		'name'          => __( 'Content Sidebar', 'twentyfourteen' ),
-		'id'            => 'sidebar-2',
-		'description'   => __( 'Additional sidebar that appears on the right.', 'twentyfourteen' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
-	register_sidebar( array(
-		'name'          => __( 'Footer Widget Area', 'twentyfourteen' ),
-		'id'            => 'sidebar-3',
-		'description'   => __( 'Appears in the footer section of the site.', 'twentyfourteen' ),
+		'description'   => __( 'Appers after the comments area.', 'twentyfourteen' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
