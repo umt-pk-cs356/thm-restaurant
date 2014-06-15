@@ -5,12 +5,10 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 			<?php
 				while ( have_posts() ) : the_post();
-
-					get_template_part( 'content', get_post_format() );
-
-					
+				echo'<h1 align="center">';the_title();echo"</h1>";
+				echo'<h4 align="center">';the_content();echo'</h4>';
+				echo'<br/><br/>';
 					twentyfourteen_post_nav();
-
 					if ( comments_open() || get_comments_number() ) {
 						comments_template();
 					}

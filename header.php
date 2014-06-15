@@ -21,12 +21,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css"  media="all" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link href="slider.css" rel="stylesheet" type="text/css"  media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/slider.css" rel="stylesheet" type="text/css"  media="all" />
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script> 
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js"></script> 
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/camera.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.lightbox.js"></script> 
-  <link rel="stylesheet" type="text/css" href="lightbox.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/lightbox.css" media="screen" />
 	  <script type="text/javascript">
 		  $(function() {
 			$('.gallery a').lightBox();
@@ -67,6 +69,7 @@
 						<li><a href="services.html">Services</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="contact.html">Contact</a></li>
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 						<div class="clear"> </div>
 					</ul>
 				</div>

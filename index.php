@@ -1,4 +1,38 @@
 <?php get_header(); ?>
+<div id="main-content" class="main-content">
+
+<?php
+	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
+		// Include the featured content template.
+		get_template_part( 'featured-content' );
+	}
+?>
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		<?php
+			if ( have_posts() ) :
+				
+				while ( have_posts() ) : the_post();
+
+					get_template_part( 'content', get_post_format() );
+
+				endwhile;
+				
+				twentyfourteen_paging_nav();
+
+			else :
+
+				get_template_part( 'content', 'none' );
+
+			endif;
+		?>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	<?php get_sidebar( 'content' ); ?>
+</div><!-- #main-content -->
 	       <!--start-image-slider---->
 			    <div class="slider">					     
 					<div class="camera_wrap camera_azure_skin" id="camera_wrap_1">									           
@@ -67,12 +101,12 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 									<div class="gallery">
 										<ul>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider3.jpg"><img src="images/slider3.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider4.jpg"><img src="images/slider4.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider1.jpg"><img src="images/slider1.jpg" alt=""></a></li>
-												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider2.jpg"><img src="images/slider2.jpg" alt=""></a></li>											
+												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider1.jpg"><img src="<?php bloginfo('template_directory'); ?>/images/slider1.jpg" alt=""></a></li>
+												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider2.jpg"><img src="<?php bloginfo('template_directory'); ?>/images/slider2.jpg" alt=""></a></li>
+												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider3.jpg"><img src="<?php bloginfo('template_directory'); ?>/images/slider3.jpg" alt=""></a></li>
+												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider4.jpg"><img src="<?php bloginfo('template_directory'); ?>/images/slider4.jpg" alt=""></a></li>
+												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider1.jpg"><img src="<?php bloginfo('template_directory'); ?>/images/slider1.jpg" alt=""></a></li>
+												<li><a href="<?php bloginfo('template_directory'); ?>/images/slider2.jpg"><img src="<?php bloginfo('template_directory'); ?>/images/slider2.jpg" alt=""></a></li>											
 											<div class="clear"> </div>
 										</ul>										
 								 </div>
