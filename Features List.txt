@@ -1,6 +1,8 @@
-(1) Supports widgets
-(2) Background color is customizable
-(3) Supports add/removing navigation menus
-(4) Supports plugins
-(5) Search bar works
+(1) Supports widgets.
+(2) Background color is customizable.
+(3) Supports add/removing navigation menus.
+(4) Supports plugins.
+(5) Search bar works.
 (6) Shows posts and pages.
+(7) Supports tags and categories.
+(8) Shows all posts of an author.
