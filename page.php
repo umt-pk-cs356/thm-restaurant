@@ -18,8 +18,8 @@
 					// Include the page content template.
 					get_template_part( 'content', 'page' );
 					echo'<h1 align="center">';the_title();echo"</h1>";
+					echo'<h5 align="center">';twentyfourteen_posted_on();echo'</h5>';
 					echo'<h4 align="center">';the_content();echo'</h4>';
-					
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) {
 						comments_template();
