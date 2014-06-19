@@ -8,7 +8,6 @@ get_header(); ?>
 				echo'<h1 align="center">';the_title();echo"</h1>";
 				echo'<h4 align="center">';the_content();echo'</h4>';
 				echo'<br/><br/>';
-					twentyfourteen_post_nav();
 					if ( comments_open() || get_comments_number() ) {
 						comments_template();
 					}
